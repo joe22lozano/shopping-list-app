@@ -1,0 +1,73 @@
+body {
+	background-image: url('../images/aisle.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+@font-face {
+    font-family: "sharpie"; src: url('../fonts/basicsharpie.ttf');
+}
+.title {
+	text-align: center;
+	margin-top: -145px;
+	margin-right: 100px;
+	margin-left: 100px;
+	font-family: "sharpie";
+	font-size: 150px;
+	background-image: url('../images/whiteboard.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: none;
+}
+
+.list {
+	margin-top: -150px;
+	margin-right: 100px;
+	margin-left: 100px;
+	height: 1000px;
+	background-image: url('../images/sticky-note.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#add-task {
+	width: 300px;
+}
+
+.list ul {
+	list-style: none;
+	font-family: "sharpie";
+	font-size: 100px;
+	margin: 4% auto;
+	width: 700px;
+	text-align: center;
+}
+
+.delete {
+	font-weight: bold;
+	color: red;
+	cursor: pointer;
+	margin-left: 110px;	
+}
+
+.box {
+	cursor: pointer;
+	-ms-transform: scale(2); /* IE */
+  -moz-transform: scale(2); /* FF */
+  -webkit-transform: scale(2); /* Safari and Chrome */
+  -o-transform: scale(2); /* Opera */
+  display: inline-block;
+}
+
+.completed {
+	text-decoration: line-through;
+}
+
+.list-input {
+	text-align: center;
+	margin-top:100px;
+	margin-bottom:100px;
+}
+
+.list-item {
+	margin-left: 40px;
+}
